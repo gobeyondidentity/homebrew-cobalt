@@ -7,22 +7,22 @@ class Sentry < Formula
   on_macos do
     on_arm do
       url "https://github.com/gobeyondidentity/cobalt/releases/download/v0.7.0/sentry_darwin_arm64.tar.gz"
-      sha256 "e07b23fa3173140b98a9370499745cb811ec85c73641af7f543b244c6aa4d213"
+      sha256 "438b92b8c007fdcbc8553c22ebe00ff69a1bd02d75feb029a1238ae6ed0f194b"
     end
     on_intel do
       url "https://github.com/gobeyondidentity/cobalt/releases/download/v0.7.0/sentry_darwin_amd64.tar.gz"
-      sha256 "7a2b1fe8fdba0da5005f1f9d4b0d2fb047496720ece41d958435eada4b4d63fd"
+      sha256 "f9240be53f2ef6d3c75e03623e84d67be3f75f7854d193ce38a9b96a49525f1b"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/gobeyondidentity/cobalt/releases/download/v0.7.0/sentry_linux_arm64.tar.gz"
-      sha256 "fc2d28de98171f9d61588d22d03cfc56f0aa752227510b08d2869d81e9856b07"
+      sha256 "da70e6e3ca9888b49b4c2db5d381ecae54154f88c18ecdebcdc4d901f8163d08"
     end
     on_intel do
       url "https://github.com/gobeyondidentity/cobalt/releases/download/v0.7.0/sentry_linux_amd64.tar.gz"
-      sha256 "93fa6b3f29bc1a7b41db667d9dda9433e3d6f7c6f266b42c3247fc3e144b9b0d"
+      sha256 "54b7974ad346b555a3082e475b792315ce968a6041efca42aa37a7fce2fbf3ea"
     end
   end
 

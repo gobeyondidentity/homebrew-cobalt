@@ -7,22 +7,22 @@ class Nexus < Formula
   on_macos do
     on_arm do
       url "https://github.com/gobeyondidentity/cobalt/releases/download/v0.7.0/nexus_darwin_arm64.tar.gz"
-      sha256 "e164c14980fea3a2dbd813c530fc8be5d2be3a8476e0e58cb7874d6de99f058a"
+      sha256 "ad3fd50cc87b00030357aada47e687870f8a8720296ca4297f0c90abbe40ada0"
     end
     on_intel do
       url "https://github.com/gobeyondidentity/cobalt/releases/download/v0.7.0/nexus_darwin_amd64.tar.gz"
-      sha256 "27ef50f8575abfd667913f9a97ab402e80cf576c4dcd76d439fc5fc4f8661d96"
+      sha256 "9aaddd8eb03f6819cf93c62824324cad9e9fdb170f8cd49a24531eecce63f3ea"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/gobeyondidentity/cobalt/releases/download/v0.7.0/nexus_linux_arm64.tar.gz"
-      sha256 "c5483ec07b47048b67b877ca53bcc11a8808b5240c05f93c4ee717f250e0dba7"
+      sha256 "195cf21c4bd899b72ee203d0a526786e16c013665204e5e89eab74ed6eb17a70"
     end
     on_intel do
       url "https://github.com/gobeyondidentity/cobalt/releases/download/v0.7.0/nexus_linux_amd64.tar.gz"
-      sha256 "8aa3ddcb2b6ff993f676252f2b42da26cee081674c108df913d16f4f061c684d"
+      sha256 "1d2066c488d18dfa6015bd4106a46fcdc9880df726af5fd69e3970766a706ccc"
     end
   end
 
