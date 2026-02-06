@@ -7,22 +7,22 @@ class Bluectl < Formula
   on_macos do
     on_arm do
       url "https://github.com/gobeyondidentity/cobalt/releases/download/v0.7.0/bluectl_darwin_arm64.tar.gz"
-      sha256 "e91d4c170c23a21f55d5d01629e8199c7ec697ab3001452dc2ad3307633d610c"
+      sha256 "31258009d95fee8dfea61b547ee8164f96a8e9718eea633ed0a41854be322fad"
     end
     on_intel do
       url "https://github.com/gobeyondidentity/cobalt/releases/download/v0.7.0/bluectl_darwin_amd64.tar.gz"
-      sha256 "d25f1ead7b5d47afefe0733c797a158ddd5e9b7920cdc8242b9e7adc75c71609"
+      sha256 "3193bcc6be583afac328d5e74528b47b8610f22eca955e7d0b5eaa050fe56b5a"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/gobeyondidentity/cobalt/releases/download/v0.7.0/bluectl_linux_arm64.tar.gz"
-      sha256 "d00b99cd8daadf507790cb8ff892e60f3ee60034194551c5a392a987a6190435"
+      sha256 "ec362f656d05887722854d40a62d3fdd959fde6f61e3e39a8179a71e13803660"
     end
     on_intel do
       url "https://github.com/gobeyondidentity/cobalt/releases/download/v0.7.0/bluectl_linux_amd64.tar.gz"
-      sha256 "88d41ea935701849f6c2d08d697cdeadc7f7bea812c1c8395330dfbff0785b96"
+      sha256 "8adddb978a66845991ae7b5cd160b4f8295abc1f82dce5017101a9a43f461964"
     end
   end
 

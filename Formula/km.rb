@@ -7,22 +7,22 @@ class Km < Formula
   on_macos do
     on_arm do
       url "https://github.com/gobeyondidentity/cobalt/releases/download/v0.7.0/km_darwin_arm64.tar.gz"
-      sha256 "f3efed4f9894ccaac85c2161f8f3d76f0573fac947654bd456489fe9d461977e"
+      sha256 "5011ef307f7bc1a3d279cd6da797744013f0cdd95e75e899ef49fb3458ad7367"
     end
     on_intel do
       url "https://github.com/gobeyondidentity/cobalt/releases/download/v0.7.0/km_darwin_amd64.tar.gz"
-      sha256 "97c53ca276c8576ec41b0b532a678235bd553bc3bb6f99651e136c88e3b2ae04"
+      sha256 "5fe7492275e8b0546959583255248623d67603f1cb7092b884d1ada158b82eca"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/gobeyondidentity/cobalt/releases/download/v0.7.0/km_linux_arm64.tar.gz"
-      sha256 "c211f0be75f03978177fd0aa5d968102cf20db2575225888dda10f5eadacbae8"
+      sha256 "5d524ff243a32b547c2a50e2778735f149288f8ba11e54b3d4eb0d11180a6f74"
     end
     on_intel do
       url "https://github.com/gobeyondidentity/cobalt/releases/download/v0.7.0/km_linux_amd64.tar.gz"
-      sha256 "be09df3e3d3bedce6b0a403a6f57fde34fccd387ca3d8aed0c468c19c2cb6fd3"
+      sha256 "45a6ba46178305387412312333d9cb924dfe5001fb5d410ec9a5ed001bbd6c06"
     end
   end
 

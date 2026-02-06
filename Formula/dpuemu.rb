@@ -7,22 +7,22 @@ class Dpuemu < Formula
   on_macos do
     on_arm do
       url "https://github.com/gobeyondidentity/cobalt/releases/download/v0.7.0/dpuemu_darwin_arm64.tar.gz"
-      sha256 "10ceb98cd31a1ec1c3bd912ff142bf579050b52f71c6efd1ff67d7745644eaa5"
+      sha256 "0903863b0f887a1c77f4c97fc1e656c5f78c52769571d34f4bada096ed6b6cde"
     end
     on_intel do
       url "https://github.com/gobeyondidentity/cobalt/releases/download/v0.7.0/dpuemu_darwin_amd64.tar.gz"
-      sha256 "1ca6ad79684e6a2c4af25a41d1896780ce02167ddbf4fd9417b0b2cb0a2a52b0"
+      sha256 "c7885a9c7b7ea6d243c793e3a95c2c9bcbc1131da2f361b4702c2b8f1cf43b64"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/gobeyondidentity/cobalt/releases/download/v0.7.0/dpuemu_linux_arm64.tar.gz"
-      sha256 "9274ab2dbef8a49c27ee775b416b47af7175f690ff05fb157922a4bcecf90322"
+      sha256 "89b200708dd1b9553abaccd53c495169d42b37c705dd39fd5eec740ea0c679af"
     end
     on_intel do
       url "https://github.com/gobeyondidentity/cobalt/releases/download/v0.7.0/dpuemu_linux_amd64.tar.gz"
-      sha256 "4e1ca82ddba4df460c280523c4d83b57e6933eb8ea4f6537268971e331786797"
+      sha256 "139e783456f35e68605dba2bcfa74d6f0e5d62a6bf069de62efb346a46807228"
     end
   end
 
